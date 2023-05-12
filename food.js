@@ -9,7 +9,7 @@ const EXPANSION_RATE = 2
 export function update(){
         
     if(onTongue(food)){
-        console.log("eat!!")
+        console.log("eat!")
     }
     if (onSnake(food) || onTongue(food) ){
         expandSnake(EXPANSION_RATE)
